@@ -5,7 +5,7 @@
 	<p>Michael Rivera</p>
 	<p>Correos: 
 	<a href="steveena.dominguezb@utadeo.edu.co"> steveena.dominguezb@utadeo.edu.co</a>.
-	<a href="michaela.riveracb@utadeo.edu.co"> michaela.riverac@utadeo.edu.co</a>.
+	<a href="michaela.riverac@utadeo.edu.co"> michaela.riverac@utadeo.edu.co</a>.
 	</p>
 	</div>
 </footer>
