@@ -14,7 +14,7 @@ import trabajoJuegoDeTronos.service.IRegionService;
 @Controller
 public class HomeController {
 	
-	@RequestMapping(value= "/home", method = RequestMethod.GET)
+	@RequestMapping(value= "/", method = RequestMethod.GET)
 	public String HomePage() {
 		return "home";
 	}
