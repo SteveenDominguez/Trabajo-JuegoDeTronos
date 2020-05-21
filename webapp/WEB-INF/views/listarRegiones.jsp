@@ -43,7 +43,7 @@ $(document).ready( function () {
 	</tr>
 	</thead>
 	<tbody>
-	<c:forEach items="${regiones }" var="estudiante">
+	<c:forEach items="${regiones }" var="region">
 		<tr>
 		<td>${region.id}</td>
 		<td>${region.nombre}</td>
