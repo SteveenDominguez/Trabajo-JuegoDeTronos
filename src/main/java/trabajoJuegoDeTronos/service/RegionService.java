@@ -10,23 +10,35 @@ import trabajoJuegoDeTronos.repository.RegionRepository;
 @Service
 public class RegionService implements IRegionService {
 	@Autowired
-	RegionRepository region;
+	RegionRepository regi;
 	@Override
 	public List<Region> listarRegiones() {
 		// TODO Auto-generated method stub
-		return region.findAll();
+		return regi.findAll();
 	}
 
 	@Override
 	public Region encontrarPorId(int id) {
 		// TODO Auto-generated method stub
-		return region.findById(id);
+		return regi.findById(id);
 	}
 
 	@Override
 	public List<Region> listarPorNombre(String nombre) {
 		// TODO Auto-generated method stub
-		return region.findByNombre(nombre);
+		return regi.findByNombre(nombre);
+	}
+
+	@Override
+	public void guardar(Region region) {
+		// TODO Auto-generated method stub
+		regi.save(region);
+	}
+
+	@Override
+	public void eliminar(int id) {
+		// TODO Auto-generated method stub
+		regi.deleteById(id);
 	}
 
 }

@@ -12,6 +12,12 @@ public class Region {
 	private String nombre;
 	private String clima;
 	private String mapa;
+	public Region(int id, String nombre, String clima, String mapa) {
+		this.ID=id;
+		this.nombre=nombre;
+		this.clima=clima;
+		this.mapa=mapa;
+	}
 	public int getId() {
 		return ID;
 	}
